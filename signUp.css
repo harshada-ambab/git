@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 900px;
+    margin: 25px auto;
+    background-color: lightgrey;
+    height: auto;
+    border: 1px solid black;
+}
+form{
+    display: inline-block;
+    margin: 10px;
+    
+}
+form input[type=text],[type=email],[type=password]{
+    margin:5px;
+    width: 98%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+form input[type=submit]{
+    padding: 10px;
+    color: aliceblue;
+    background-color: rebeccapurple;
+    font-size: 15px;
+    border-radius: 5px;
+}
+form span.error{
+    font-size: 10px;
+    color: red;
+}
+form span.success{
+    font-size: 20px;
+    color: green;
+    text-align: center;
+}
+h1,h2{
+    text-align: center;
+}
